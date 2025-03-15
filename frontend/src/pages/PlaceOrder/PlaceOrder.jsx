@@ -37,7 +37,7 @@ const {getTotalCartAmount} = useContext(StoreContext);
             </div>
             <hr />
             <div className="cart-total-details">
-              <p>Delivery Fee</p>
+              <p>Delivery Fee</p> 
               <p>${getTotalCartAmount() === 0 ? 0 : 2}</p>
             </div>
             <hr />
@@ -48,7 +48,7 @@ const {getTotalCartAmount} = useContext(StoreContext);
           </div>
             <button >PROCEED TO PAYMENT</button>
         </div>
-      </div>
+      </div> 
     </form>
   )
 }

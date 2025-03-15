@@ -64,7 +64,7 @@ const navigate = useNavigate();
         <div className="cart-total">
           <h2>Cart Totals</h2>
           <div>
-            <div className="cart-total-details">
+            <div className="cart-total-details">  
               <p>Subtotal</p>
               <p>${getTotalCartAmount()}</p>
             </div>
@@ -83,7 +83,7 @@ const navigate = useNavigate();
         </div>
         <div className="cart-promocode">
           <div>
-            <p>If you have a promo code, Enter it here</p>
+            <p>If you have a promo code, Enter it here</p> 
             <div className='cart-promocode-input'>
 <input type="text" placeholder='promo code' />
 <button>Submit</button>
